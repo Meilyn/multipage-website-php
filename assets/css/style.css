@@ -1,0 +1,89 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #db115a;
+  text-decoration: none;
+}
+
+/*
+ * 
+ */
+
+
+.position-relative{
+ 	background-image: url("../img/seniors.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+@media (min-width: 768px){
+.m-md-3 {
+	margin: 0 !important;
+	}
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.logo{
+	color: #fff;
+	
+}
+
+.oah{
+	color: #db115a;
+}	
+
+section.col-md-4{
+	background-color: #f7f7f7;
+	padding: 25px;
+	border-right: 1px dashed tomato;
+}
+
+/* Footer */
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	height: 70px;
+}
+
+footer p{
+	margin-top: 50px !important;
+}
+
+.error{
+	color: tomato;
+}
